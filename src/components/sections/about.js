@@ -158,7 +158,7 @@ const About = () => {
             <p>
               From Backend, to Frontend, to Mobile, I have
               experience developing a wide array of applications using the latest technology.
-              I thrive working in teams that are genuinely interested in solving real problems and are building on the cutting edge of Technology.
+              I thrive on working in teams that are genuinely interested in solving real problems and are building on the cutting edge of Technology.
             </p>
 
             <p>The technologies that I feel most confident with are:</p>
