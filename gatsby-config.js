@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Mani Shooshtari',
-        short_name: 'Manishoo',
+        short_name: 'Mani',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
