@@ -7,7 +7,7 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/manishoo',
+      url: 'https://www.instagram.com/manishooshtari',
     },
     {
       name: 'Twitter',
@@ -16,10 +16,6 @@ module.exports = {
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/manishoo',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
     },
   ],
 
