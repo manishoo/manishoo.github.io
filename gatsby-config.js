@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Mani Shooshtari',
     description:
-      'Mani Shooshtari is a web developer based in Tehran specializing in designing, building, and scaling exceptional web applications.',
+      'Mani Shooshtari is a web developer based in Istanbul specializing in designing, building, and scaling exceptional web applications.',
     siteUrl: 'https://mani.shooshtari.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@manishoo_en',
