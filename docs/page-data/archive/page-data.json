@@ -1,1 +1,53 @@
-{"componentChunkName":"component---src-pages-archive-js","path":"/archive/","result":{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"date":"2016-11-16","title":"Shadowsocks GUI","tech":["Node","Express","React"],"github":null,"external":null,"company":null},"html":"<p>A web appliocation to facilitate the creating and maintaining of Shadowsocks server and clients</p>"}},{"node":{"frontmatter":{"date":"2016-11-16","title":"Shadowsocks GUI","tech":["Node","Express","React"],"github":null,"external":null,"company":null},"html":"<p>A web appliocation to facilitate the creating and maintaining of Shadowsocks server and clients</p>"}},{"node":{"frontmatter":{"date":"2016-11-16","title":"Shadowsocks GUI","tech":["Node","Express","React"],"github":null,"external":null,"company":null},"html":"<p>A web appliocation to facilitate the creating and maintaining of Shadowsocks server and clients</p>"}}]}},"pageContext":{}}}
+{
+  "componentChunkName": "component---src-pages-archive-js",
+  "path": "/archive/",
+  "result": {
+    "data": {
+      "allMarkdownRemark": {
+        "edges": [
+          {
+            "node": {
+              "frontmatter": {
+                "date": "2016-11-16",
+                "title": "Shadowsocks GUI",
+                "tech": ["Node", "Express", "React"],
+                "github": null,
+                "external": null,
+                "company": null
+              },
+              "html": "<p>A web appliocation to facilitate the creating and maintaining of Shadowsocks server and clients</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "date": "2016-11-16",
+                "title": "Shadowsocks GUI",
+                "tech": ["Node", "Express", "React"],
+                "github": null,
+                "external": null,
+                "company": null
+              },
+              "html": "<p>A web appliocation to facilitate the creating and maintaining of Shadowsocks server and clients</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "date": "2016-11-16",
+                "title": "Shadowsocks GUI",
+                "tech": ["Node", "Express", "React"],
+                "github": null,
+                "external": null,
+                "company": null
+              },
+              "html": "<p>A web appliocation to facilitate the creating and maintaining of Shadowsocks server and clients</p>"
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {}
+  },
+  "staticQueryHashes": ["1994492073", "3391063840", "3618961439", "4163538432", "604461682"]
+}
