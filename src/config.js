@@ -6,12 +6,16 @@ module.exports = {
       url: 'https://github.com/manishoo',
     },
     {
+      name: 'Gitlab',
+      url: 'https://www.gitlab.com/manishoo',
+    },
+    {
       name: 'Instagram',
-      url: 'https://www.instagram.com/manishooshtari',
+      url: 'https://www.instagram.com/maanishoo',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/manishoo_en',
+      url: 'https://twitter.com/maanishoo',
     },
     {
       name: 'Linkedin',

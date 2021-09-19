@@ -16,6 +16,7 @@ import {
   IconTwitter,
   IconZap,
 } from '@components/icons';
+import IconGitlab from './gitlab';
 
 const Icon = ({ name }) => {
   switch (name) {
@@ -47,6 +48,8 @@ const Icon = ({ name }) => {
       return <IconTwitter />;
     case 'Zap':
       return <IconZap />;
+    case 'Gitlab':
+      return <IconGitlab />;
     default:
       return <IconExternal />;
   }
