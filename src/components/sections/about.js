@@ -61,7 +61,7 @@ const StyledPic = styled.div`
     width: 100%;
     border-radius: var(--border-radius);
     background: transparent;
-    
+
     .img {
       filter: none;
       mix-blend-mode: normal;
@@ -135,7 +135,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'React Native', 'Node.js', 'GraphQL', 'Angular', 'MongoDb', 'Redis', 'PostgresQL', 'Docker'];
+  const skills = ['Typescript', 'React', 'React Native', 'Node.js', 'GraphQL', 'Angular', 'MongoDb', 'Redis', 'PostgresQL', 'Docker'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
