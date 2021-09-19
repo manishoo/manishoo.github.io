@@ -1,13 +1,1 @@
-{
-  "data": {
-    "site": {
-      "siteMetadata": {
-        "defaultTitle": "Mani Shooshtari",
-        "defaultDescription": "Mani Shooshtari is a web developer based in Istanbul specializing in designing, building, and scaling exceptional web applications.",
-        "siteUrl": "https://mani.shooshtari.com",
-        "defaultImage": "/og.png",
-        "twitterUsername": "@manishoo_en"
-      }
-    }
-  }
-}
+{"data":{"site":{"siteMetadata":{"defaultTitle":"Mani Shooshtari","defaultDescription":"Mani Shooshtari is a web developer based in Istanbul specializing in designing, building, and scaling exceptional web applications.","siteUrl":"https://mani.shooshtari.com","defaultImage":"/og.png","twitterUsername":"@manishoo_en"}}}}
