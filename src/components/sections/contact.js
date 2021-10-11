@@ -77,7 +77,6 @@ const Contact = () => {
         }>
         Let's meet
       </button>
-      .
     </StyledContactSection>
   );
 };
