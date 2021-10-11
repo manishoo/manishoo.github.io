@@ -76,7 +76,7 @@ const Contact = () => {
         Say Hello
       </a>
       <button className="calendly-link" onClick={onCalendlyButtonClick}>
-        Let's chat!
+        Let's meet!
       </button>
     </StyledContactSection>
   );
