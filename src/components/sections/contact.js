@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { srConfig, email } from '@config';
 import sr from '@utils/sr';
+import { openPopupWidget } from 'react-calendly';
 
 const StyledContactSection = styled.section`
   max-width: 600px;
@@ -38,6 +39,11 @@ const StyledContactSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  .calendly-link {
+    ${({ theme }) => theme.mixins.bigButton};
+    margin-left: 16px;
+  }
 `;
 
 const Contact = () => {
@@ -47,16 +53,31 @@ const Contact = () => {
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
       <h2 className="numbered-heading overline">What’s Next?</h2>
-
       <h2 className="title">Get In Touch</h2>
-
       <p>
-        I'm currently actively looking for new opportunities and my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+        I'm currently actively looking for new opportunities and my inbox is always open. Whether
+        you have a question or just want to say hi, I'll try my best to get back to you!
       </p>
-
       <a className="email-link" href={`mailto:${email}`}>
         Say Hello
       </a>
+      <button
+        className="calendly-link"
+        onClick={() =>
+          openPopupWidget({
+            url: 'https://calendly.com/manishoo',
+            pageSettings: {
+              backgroundColor: '#0a1a2e',
+              primaryColor: '#ffcc00',
+              textColor: '#cbd6f6',
+              hideGdprBanner: true,
+              hideLandingPageDetails: true,
+            },
+          })
+        }>
+        Let's meet
+      </button>
+      .
     </StyledContactSection>
   );
 };
