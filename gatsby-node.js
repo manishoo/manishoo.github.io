@@ -106,11 +106,28 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
 exports.onPreInit = () => {
   if (process.argv[2] === 'build') {
     fs.rmdirSync(path.join(__dirname, 'docs'), { recursive: true });
-    fs.renameSync(path.join(__dirname, 'public'), path.join(__dirname, 'public_dev'));
   }
 };
 
 exports.onPostBuild = () => {
-  fs.renameSync(path.join(__dirname, 'public'), path.join(__dirname, 'docs'));
-  fs.renameSync(path.join(__dirname, 'public_dev'), path.join(__dirname, 'public'));
+  copyRecursiveSync(path.join(__dirname, 'public'), path.join(__dirname, 'docs'));
 };
+
+/**
+ * Look ma, it's cp -R.
+ * @param {string} src  The path to the thing to copy.
+ * @param {string} dest The path to the new copy.
+ */
+function copyRecursiveSync(src, dest) {
+  const exists = fs.existsSync(src);
+  const stats = exists && fs.statSync(src);
+  const isDirectory = exists && stats.isDirectory();
+  if (isDirectory) {
+    fs.mkdirSync(dest);
+    fs.readdirSync(src).forEach(childItemName => {
+      copyRecursiveSync(path.join(src, childItemName), path.join(dest, childItemName));
+    });
+  } else {
+    fs.copyFileSync(src, dest);
+  }
+}
