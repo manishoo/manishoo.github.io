@@ -6,10 +6,6 @@ module.exports = {
       url: 'https://github.com/manishoo',
     },
     {
-      name: 'Gitlab',
-      url: 'https://www.gitlab.com/manishoo',
-    },
-    {
       name: 'Instagram',
       url: 'https://www.instagram.com/maanishoo',
     },

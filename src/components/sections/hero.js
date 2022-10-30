@@ -52,7 +52,7 @@ const Hero = () => {
   const three = <h3 className="big-heading">I create things for the web.</h3>;
   const four = (
     <p>
-      I'm a web developer based in Istanbul specializing in designing, building, and scaling exceptional web applications.
+      I'm a web developer based in Stockholm specializing in designing, building, and scaling exceptional web applications.
     </p>
   );
   const five = (
